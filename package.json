@@ -1,6 +1,6 @@
 {
-  "name": "functions",
-  "description": "Cloud Functions for Firebase",
+  "name": "amazon-clone-node-server",
+  "description": "replicated firebase cloud function to node.js",
   "scripts": {
     "lint": "eslint .",
     "serve": "firebase emulators:start --only functions",
@@ -10,7 +10,7 @@
     "logs": "firebase functions:log"
   },
   "engines": {
-    "node": "10"
+    "node": "12.14.1"
   },
   "main": "index.js",
   "dependencies": {

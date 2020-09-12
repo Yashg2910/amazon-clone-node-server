@@ -37,8 +37,8 @@ app.post("/payments/create",(request, response) => {
 })
 
 // listen command
-app.listen(7000, () => {
-	console.log("server")
+app.listen( process.env.PORT || 7000, () => {
+	console.log("server ON PORT >>" + process.env.PORT);
 })
 
 
