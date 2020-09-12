@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const { response } = require('express');
-const stripe = require("stripe")("sk_test_51HQDHOG0TvrggPXhLMQQ3oKUGgEbtbOzlDdicEAzdf4dNrSTxhOXUqg5TMuOEKWBSsp5WobQ2Q1oIZldzwYwqCkH00ahp3WrjO")
+const stripe = require("stripe")("Your_Secret_key_from_stripe_like_sk_test")
 
 // API
 
