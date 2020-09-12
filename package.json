@@ -2,12 +2,7 @@
   "name": "amazon-clone-node-server",
   "description": "replicated firebase cloud function to node.js",
   "scripts": {
-    "lint": "eslint .",
-    "serve": "firebase emulators:start --only functions",
-    "shell": "firebase functions:shell",
-    "start": "npm run shell",
-    "deploy": "firebase deploy --only functions",
-    "logs": "firebase functions:log"
+    "start":"node index.js"
   },
   "engines": {
     "node": "12.14.1"
