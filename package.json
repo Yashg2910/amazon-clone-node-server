@@ -2,7 +2,7 @@
   "name": "amazon-clone-node-server",
   "description": "replicated firebase cloud function to node.js",
   "scripts": {
-    "start":"node index.js"
+    "start": "node index.js"
   },
   "engines": {
     "node": "12.14.1"

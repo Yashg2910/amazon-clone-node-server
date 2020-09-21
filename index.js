@@ -17,6 +17,7 @@ app.use(express.json());
 
 // API routes
 app.get("/", (request, response) => response.status(200).send("hello world"))
+app.get("/user", (request, response) => response.status(200).send("hello user"))
 
 app.post("/payments/create",(request, response) => {
     const total = request.query.total;
@@ -42,5 +43,3 @@ app.post("/payments/create",(request, response) => {
 app.listen( process.env.PORT || 7000, () => {
 	console.log("server ON PORT >>" + process.env.PORT);
 })
-
-
